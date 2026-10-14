@@ -1,0 +1,20 @@
+{
+  "name": "qa3da-mahabba",
+  "version": "1.0.0",
+  "description": "قعدة محبة: لغات المحبة الخمس كما تراها وكما يراك أصدقاؤك · إعداد م. إياد حلوبي",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  },
+  "optionalDependencies": {
+    "pg": "^8.13.1"
+  }
+}
